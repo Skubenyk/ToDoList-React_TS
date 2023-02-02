@@ -11,7 +11,7 @@ const App = () => {
       const initialValue = JSON.parse(saved);
       return initialValue;
     }
-    return null;
+    return [];
   });
 
   // useEffect(() => {
